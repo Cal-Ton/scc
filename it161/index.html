@@ -1,54 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IT161 Portal</title>
-    <link rel="icon" href="images/sun.png">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/nav.css">
-    <link rel="stylesheet" href="css/form.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>IT161 Portal</title>
+	<link rel="icon" href="images/sun.png">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/nav.css">
+	<link rel="stylesheet" href="css/forms.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <header>
-        <h1 class="page-header">IT161 Student Portal</h1>
-        <nav class="topnav" id="myTopnav">
-            <a href="index.html" data-page="index.html">Home</a>
-            <a href="elements/index.html" data-page="elements/index.html">HTML Elements</a>
-            <a href="stylin/index.html" data-page="stylin/index.html">Stylin with CSS</a>
-            <a href="https://github.com/Cal-Ton" data-page="https://github.com/Cal-Ton">GitHub</a>
-            <a href="https://www.linkedin.com/in/calum-tonner-a613301b4/" data-page="https://www.linkedin.com/in/calum-tonner-a613301b4/">LinkedIn</a>
-            <a href="https://codepen.io/cal-ton" data-page="https://codepen.io/cal-ton">CodePen</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-        </nav>
-    </header><br id="br">
-    <main class="wrapper">
-        <picture class="profile">
-            <source media="(min-width: 1200px)" srcset="images/desktop.jpg">
-            <source media="(min-width: 501px)" srcset="images/tablet.jpg">
-            <img src="images/phone.jpg" alt="That's me!">
-        </picture>
-        <h2 class="subheader"><!-- About Me: -->Page Author</h2>
-        <p>This page has been scripted by Calum Tonner.</p>
-        <p>An undergrad student at Seattle Central Community College.</p>
-        <p>Currently studying IT with a focus on web design and programming.</p>
-        <p>Here you can find some of their work.</p>
-        <!-- <p>Would like to eventually secure a professional position in web authoring or applications programming.</p>
-        <p>Have grown up in both America and the UK.</p>
-        <p>Graduated high school at The Center School in Seattle, WA.</p>
-        <p>Some things that I like are electric guitar, skateboarding, and calligraphy.</p>
-        <p>One of my dreams is to play golf in Hawaii.</p> --><hr><br>
-        <h3>Page Origin</h3>
-        <p>The HTML and CSS for this page is from Sara Newman's Web Fundamentals class as taught at Seattle Central. This page provides a basis for students to build a responsive web portal page.</p>
-        <p>The mobile navigation originates from <a href="https://www.w3schools.com/howto/howto_js_mobile_navbar.asp" target="_blank">W3Schools.</a></p>
-        <p>You can study how this page is built with the <a href="https://www.youtube.com/watch?v=151NXMk0a2c" target="_blank">DOM Inspector</a> and use it as a foundation for your portal or other sites!</p>
-    </main><br>
-    <footer>
-        <p><small>&copy: <span id="year"></span> by Calum Tonner. All Rights reserved. ~
-            <a id="htmlcheck" href="#" target="_blank">Check HTML</a> ~
-            <a id="csscheck" href="#" target="_blank">Check CSS</a>
-        </small></p>
-    </footer>
-    <script src="js/main.js"></script>
+	<header>
+		<h1 class="page-header">IT161 Student Portal</h1>
+		<nav class="topnav" id="myTopnav">
+			<a href="index.html">Home</a>
+			<a href="elements/index.html">HTML Elements</a>
+			<a href="stylin/index.html">Stylin with CSS</a>
+			<a href="https://github.com/Cal-Ton">GitHub</a>
+			<a href="https://www.linkedin.com/in/calum-tonner-a613301b4/">LinkedIn</a>
+			<a href="https://codepen.io/cal-ton">CodePen</a>
+			<a href="aia.html">Audience</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+		</nav>
+	</header><br id="br">
+	<main class="wrapper">
+		<div class="row">
+			<div class="column">
+				<h2>Heading</h2>
+				<p>Paragraph.</p>
+				<p>Link <a href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns_responsive">w3.</a></p>
+				<div class="flexible">
+					<div>
+						<img src="https://picsum.photos/id/237/536/354" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="column2">
+				<h2>Heading 2</h2>
+				<p>Paragraph.</p>
+				<div class="flexible">
+					<div>
+						<img src="https://picsum.photos/id/1074/536/354" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="center">
+				<h2 class="subheader">Page Author</h2>
+				<p>This page has been scripted by Calum Tonner.</p>
+				<p>An undergrad student at Seattle Central Community College.</p>
+				<p>Currently studying IT with a focus on web design and programming.</p>
+				<p>Here you can find some of their work.</p>
+			</div>
+		</div>
+		<hr><br>
+		<h3>Page Origin</h3>
+		<div class="auto">
+			<picture class="profile">
+				<source media="(min-width: 1200px)" srcset="images/desktop.jpg">
+				<source media="(min-width: 501px)" srcset="images/tablet.jpg">
+				<img src="images/phone.jpg" alt="That's me!">
+			</picture>
+			<div id="source">
+				<p>The HTML and CSS for this page is from Sara Newman's Web Fundamentals class as taught at Seattle Central. This page provides a basis for students to build a responsive web portal page.</p>
+				<p>The mobile navigation originates from <a href="https://www.w3schools.com/howto/howto_js_mobile_navbar.asp" target="_blank">W3Schools.</a></p>
+				<p>You can study how this page is built with the <a href="https://www.youtube.com/watch?v=151NXMk0a2c" target="_blank">DOM Inspector</a> and use it as a foundation for your portal or other sites!</p>
+			</div>
+		</div>
+	</main><br>
+	<footer>
+		<p><small>&copy; <span id="this-year"></span> by Calum Tonner. All Rights reserved. ~
+			<a id="html-checker" href="#" target="_blank">Check HTML</a> ~
+			<a id="css-checker" href="#" target="_blank">Check CSS</a>
+		</small></p>
+		<div class="social">
+			<div><a href="#" class="fa fa-facebook"></a></div>
+			<div><a href="#" class="fa fa-twitter"></a></div>
+			<div><a href="#" class="fa fa-youtube"></a></div>
+			<div><a href="#" class="fa fa-instagram"></a></div>
+			<div><a href="#" class="fa fa-snapchat-ghost"></a></div>
+		</div>
+	</footer>
+	<script src="js/main.js"></script>
 </body>
 </html>
