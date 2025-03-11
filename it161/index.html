@@ -1,52 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="noindex, nofollow">
-    <title>IT161 Test Page by Calum Tonner</title>
-    <style>
-        img {
-            float: left;
-            margin: 1em;
-            max-width: 400px;
-        }
-        a {
-            color: black;
-        }
-        a:hover {
-            color: red;
-            background-color: yellow;
-            text-decoration: none;
-        }
-        footer {
-            clear: both;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Calum's IT161 Test Page</h1>
-        <nav>
-            <a href="https://www.w3.org" target="_blank">The W3C</a>
-            <a href="https://www.whatwg.org" target="_blank">WHATWG Community</a>
-            <a href="https://www.w3schools.com" target="_blank">W3Schools</a>
-            <a href="https://www.linkedin.com/learning-login" target="_blank">LinkedIn Learning Library</a>
+ <head>
+     <title>Portal: Calum Tonner</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/forms.css">
+  <link rel="icon" href="images/sun.png">
+ </head>
+ <body>
+     <header>
+     <h1 class="page-header">Hello, my name is Calum Tonner.</h1>
+        <nav class="topnav" id="myTopnav">
+            <a href="index.html">Home</a>
+            <a href="elements/index.html" target="_blank">HTML Elements</a>
+            <a href="stylin/index.html" target="_blank">Stylin' with CSS</a>
+            <a href="https://github.com/Cal-Ton" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/calum-tonner-a613301b4/">LinkedIn</a>
+            <a href="https://codepen.io/cal-ton" target="_blank">CodePen</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
         </nav>
-    </header>
-    <img src="images/gohan.png" alt="Picture of Calum">
-    <p>This is a test page for my IT161 class. I will be testing this in a live browser by clicking the validator links at the bottom of this page.</p>
+     </header>
+   <main class="wrapper">
+    <picture class="profile">
+      <source media="(min-width: 1200px)" srcset="images/desktop.jpg">
+      <source media="(min-width: 501px)" srcset="images/tablet.jpg">
+      <img src="images/phone.jpg" alt="That's me!">
+    </picture>   
+    <h2 class="subheader">About Me:</h2>
+    
+
+    <p></p>
+    <p>A student at Seattle Central Community College.</p>
+    <p>Currently studying IT with a focus on Web Design and Programming.</p>
+    <p>Would like eventually to secure a professional position in web authoring or applications programming.</p>
+    <p>Have grown up in both America and the UK.</p>
+    <p>Graduated high school at The Center School in Seattle, WA.</p>
+    <p></p>
+    <p>Some things that I like are electric guitar, skateboarding, and calligraphy.</p>
+    <p>One of my dreams is to play golf in Hawaii.</p>
+    <hr>
+
+    
+    <h3>Page Origin</h3>
+
+    <p>The HTML/CSS comes from Sara Newman's Web Fundamentals class as taught at Seattle Central. This page provides a basis for students to build a responsive portal page.</p>
+
+    <p>Study how this page is built, with the <a href="https://www.youtube.com/watch?v=151NXMk0a2c" target="_blank">DOM Inspector</a> and use it as a foundation for your portal or other sites!</p>
+    <p>The mobile navigation originates from <a href="https://www.w3schools.com/howto/howto_js_mobile_navbar.asp" target="_blank">W3Schools</a></p>
     <footer>
-        <p>
-            <small>&copy; 2025 by Calum Tonner. All Rights Reserved.
-                <a id="html-check" href="#" target="_blank">Check HTML</a>
-                <a id="css-check" href="#" target="_blank">Check CSS</a>
-            </small>
-        </p>
+      <p><small>&copy; 2021-<span id="this-year"></span> by 
+          Calum Tonner, All Rights Reserved ~ 
+          <a id="html-checker" href="#" target="_blank">Check HTML</a> ~ 
+          <a id="css-checker" href="#" target="_blank">Check CSS</a></small>
+     </p>
     </footer>
-    <script>
-        document.getElementById("html-check").setAttribute("href", "https://validator.w3.org/nu/?doc=" + document.URL);
-        document.getElementById("css-check").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + document.URL);
-    </script>
-</body>
+  </main>
+  <script src="js/main.js"></script>   
+ </body>
 </html>
