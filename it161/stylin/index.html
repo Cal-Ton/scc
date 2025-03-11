@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>IT161 - Stylin w/ CSS</title>
+    <link rel="icon" href="images/sun.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="page-header">
+        <h1>Calum's IT161 Test Page - Stylin With CSS</h1>
+        <nav>
+            <ul>
+                <li><a href="https://www.w3.org" target="_blank">The W3C</a></li>
+                <li><a href="https://www.whatwg.org" target="_blank">WHATWG Community</a></li>
+                <li><a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
+                <li><a href="https://www.linkedin.com/learning-login" target="_blank">LinkedIn Learning Library</a></li>
+            </ul>   
+        </nav>
+    </header>
+    <img src="images/gohan.png" alt="Picture of Calum">
+    <p>This is a practice page for my IT161 class. It can be tested in a live browser by clicking the validator links at the bottom of this page.</p>
+    <p>This page has been styled using CSS.</p><br>
+    <p>Days of the Week<p>
+    <ol>
+        <li>Monday</li>
+        <li>Tuesday</li>
+        <li>Wednesday</li>
+    </ol>
+    <p>Computer Brands</p>
+    <ul>
+        <li>HP</li>
+        <li>Lenovo</li>
+        <li>Acer</li>
+    </ul>
+    <p>Strong Text</p>
+    <p><strong>ASUSTeK Computer Inc. is a Taiwanese multinational computer, phone hardware and electronics manufacturer headquartered in Beitou District, Taipei, Taiwan.</strong></p>
+    <p>Emphasized Text</p>
+    <p><em>ASUSTeK Computer Inc. is a Taiwanese multinational computer, phone hardware and electronics manufacturer headquartered in Beitou District, Taipei, Taiwan.</em></p>
+    <p>Strikethrough Text</p>
+    <p><s>ASUSTeK Computer Inc. is a Taiwanese multinational computer, phone hardware and electronics manufacturer headquartered in Beitou District, Taipei, Taiwan.</s></p>
+    <p>Span Text</p>
+    <p><span>ASUSTeK Computer Inc. is a Taiwanese multinational computer, phone hardware and electronics manufacturer headquartered in Beitou District, Taipei, Taiwan.</span></p>
+    <p>Multiples Table</p>
+    <table>
+        <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>4</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>6</td>
+            <td>9</td>
+        </tr>
+    </table>
+    <footer>
+        <p>
+            <small>&copy; 2025 by Calum Tonner. All Rights Reserved.
+                <a id="html-check" href="#" target="_blank">Check HTML</a>
+                <a id="css-check" href="#" target="_blank">Check CSS</a>
+            </small>
+        </p>
+    </footer>
+    <script>
+        document.getElementById("html-check").setAttribute("href", "https://validator.w3.org/nu/?doc=" + document.URL);
+        document.getElementById("css-check").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + document.URL);
+    </script>
+</body>
+</html>
