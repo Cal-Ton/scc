@@ -1,0 +1,352 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>IT161 Portal</title>
+	<link rel="icon" href="images/sun.png">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/nav.css">
+	<link rel="stylesheet" href="css/forms.css">
+</head>
+<body>
+	<header>
+		<h1 class="page-header">IT161 Student Portal</h1>
+		<nav class="topnav" id="myTopnav">
+			<a href="index.html">Home</a>
+			<a href="elements/index.html">HTML Elements</a>
+			<a href="stylin/index.html">Stylin with CSS</a>
+			<a href="https://github.com/Cal-Ton">GitHub</a>
+			<a href="https://www.linkedin.com/in/calum-tonner-a613301b4/">LinkedIn</a>
+			<a href="https://codepen.io/cal-ton">CodePen</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+		</nav>
+	</header><br id="br">
+	<main class="wrapper">
+		<picture class="profile">
+			<source media="(min-width: 1200px)" srcset="images/desktop.jpg">
+			<source media="(min-width: 501px)" srcset="images/tablet.jpg">
+			<img src="images/phone.jpg" alt="That's me!">
+		</picture>
+		<h2 class="subheader">Page Author</h2>
+		<p>This page has been scripted by Calum Tonner.</p>
+		<p>An undergrad student at Seattle Central Community College.</p>
+		<p>Currently studying IT with a focus on web design and programming.</p>
+		<p>Here you can find some of their work.</p><hr><br>
+		<h3>Page Origin</h3>
+		<p>The HTML and CSS for this page is from Sara Newman's Web Fundamentals class as taught at Seattle Central. This page provides a basis for students to build a responsive web portal page.</p>
+		<p>The mobile navigation originates from <a href="https://www.w3schools.com/howto/howto_js_mobile_navbar.asp" target="_blank">W3Schools.</a></p>
+		<p>You can study how this page is built with the <a href="https://www.youtube.com/watch?v=151NXMk0a2c" target="_blank">DOM Inspector</a> and use it as a foundation for your portal or other sites!</p>
+	</main><br>
+	<footer>
+		<p><small>&copy; <span id="this-year"></span> by Calum Tonner. All Rights reserved. ~
+			<a id="html-checker" href="#" target="_blank">Check HTML</a> ~
+			<a id="css-checker" href="#" target="_blank">Check CSS</a>
+		</small></p>
+	</footer>
+	<script src="js/main.js"></script>
+</body>
+</html>
+
+/* Global rules */
+
+@import url('https://fonts.googleapis.com/css?family=Nunito|Noto-Sans');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+background-color: darkgreen;
+font-family: 'Nunito';
+font-size: 0.95em;
+line-height: 1.5em;
+/* background-image: url("../images/background.jpg"); */
+background-repeat: repeat;
+height: 96%;
+/* background-size: 2000px 1200px; */
+}
+
+
+body{    
+background-color: #0f0f0f;
+margin: .25em;
+padding: 1em;
+height: 100%;
+/*  margin:0; removes gap at top of page */
+}
+
+::selection {
+color: #000; 
+background: palegreen;
+}
+
+h1 {
+font-weight: normal;
+color: white;
+margin: auto;
+padding-left: .5em;
+background: ;
+line-height: 2.5em;
+text-align: ;
+}
+/*
+The border radius on h1.page-header and main.wrapper provide the 
+curved corners that appear on the body area of the page
+*/
+h1.page-header{
+font-family: 'Kanit',serif;
+-webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-topright: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+
+
+main.wrapper {
+background-color: #0f0f0f;
+color: white;
+/* overflow: auto; */
+-moz-border-radius-bottomleft: 5px;
+-moz-border-radius-bottomright: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+
+
+p {
+margin: 1em; Top Right Bottom Left (TRBL)
+}
+
+h2,h3 {
+font-weight: normal;
+margin-left: .5em;
+line-height: 1em;
+}
+
+a {
+color:darkcyan;
+text-decoration: none;
+}
+
+a:hover {
+color: black;
+background-color: #fbf498;
+text-decoration: none;
+}
+img {
+border: 1px solid white;
+}
+footer {
+clear: both;
+text-align: center;
+padding: 1em;
+position: absolute;
+bottom: 0;
+}
+footer p {
+    color: white;
+}
+
+/* Responsive rules */
+
+/* DESKTOP */
+@media all and (min-width:1200px) {
+main.wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+h1 {
+    width: 79%;
+    padding-left: 1%;
+}
+
+picture.profile img {
+    width: 50%;
+    max-width: 635px;
+    float: left;
+    margin-right: 2em;
+}
+
+}
+
+/* TABLET */
+@media all and (min-width:501px) and (max-width:1199px) {
+
+main.wrapper {
+    /* width: 90%;
+    margin: auto;  */
+}
+
+h1 {
+    /* width: 89%;
+    padding-left: 1%; */
+}
+
+picture.profile img {
+    width: 50%;
+    float: right;
+    margin-left: 1em;
+}
+
+}
+
+/* PHONE */
+@media all and (max-width:500px) {
+main.wrapper {
+    width: 100%;
+}
+
+h1 {
+    /* width: ; */
+    padding-left: 3%;
+}
+
+picture.profile img {
+    width: 99.5%;
+}
+#br {
+    /* display: none; */
+}
+}
+
+/* Global rules */
+.topnav {
+    margin: auto;
+    background-color: silver;
+    overflow: auto;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 12px 12px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+.topnav a.hover, .active {
+    background-color: darkcyan;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+/* Responsive rules - apply when screen width is less than 1200px */
+
+@media screen and (max-width: 1199px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+    
+    .topnav.responsive {
+        position: relative;
+    }
+    
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+}
+
+
+/* DESKTOP */
+@media all and (min-width:1200px) {
+    .topnav {
+        width: 80%;
+    }
+}
+
+/* TABLET */
+@media all and (min-width:501px) and (max-width:1199px) {
+    /* .topnav {
+        width: 90%;
+    } */
+}
+
+/* PHONE */
+@media all and (max-width:500px) {
+    body {
+        height: 120.5%;
+    }
+    .topnav {
+        width: 100%;
+    }
+    footer {
+        position: relative;
+    }
+    #br {
+        display: none;
+    }
+}
+
+
+form>div {
+    margin:1em; /*Top Right Bottom Left*/
+}
+
+
+/* keeps form from bunching up to left */
+@media all and (min-width:501px){
+    div.wrapper form{
+        margin-left:22.8px;
+    }
+}
+
+/* start reCAPTCHA styles */
+		
+/* writes to small text above reCAPTCHA upon failure */
+.dateFeedback{
+    font-style:italic;
+    font-size:70%;
+    font-weight:bold;
+    color:#f00;
+}
+
+input:required {
+      border: 1px solid red;
+}
+
+input:optional, textarea:optional {
+     background-color:#f1f1f1;
+     border:1px solid #ccc;
+}
+
+input[type="submit"], input[type="button"] {
+  background-color: #fff;
+  border-radius: 4px;
+  border: solid 1px #ccc;
+  padding: 0.3em 0.5em;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  max-width: 350px;
+}
+
+legend {
+  margin-left: 0.5em;
+  padding: 0.2em 0.5em;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+/* end reCAPTCHA styles */
