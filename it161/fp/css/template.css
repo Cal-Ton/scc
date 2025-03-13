@@ -1,0 +1,57 @@
+/* Global */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: green;
+    background-color: #ffffffec;
+}
+/* Global End */
+
+/* Main */
+h1 {
+    text-align: center;
+}
+nav {
+    width: 300px;
+    height: ;
+    float: left;
+}
+main {
+    width: ;
+    float: ;
+    overflow: hidden;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+}
+p {
+    color: black;
+}
+#logo {
+    width: 250px;
+    height: 300px;
+    border: 1px solid black;
+}
+#front {
+    height: 300px; 
+    border: 1px solid black;
+}
+/* Main End */
+
+/* Media */
+@media (max-width: 768px) {
+    #logo {
+        float: left;
+        width: 150px;
+        height: 200px;
+    }
+    #nav {
+        float: right;
+    }
+    main {
+        width: 100%;
+    }
+}
+/* Media End */
