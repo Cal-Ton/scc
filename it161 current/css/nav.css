@@ -1,0 +1,157 @@
+/* Global */
+.topnav {
+    line-height: 1em;
+    width: ;
+    margin: 0;
+    padding: 1em;
+    background-color: black;
+    overflow: ;
+}
+.topnav a {
+    margin: 0 1em;
+    padding: ;
+    float: ;
+    display: ;
+    color: white;
+    text-align: ;
+    padding: ;
+    text-decoration: none;
+    text-transform: ;
+    font-size: ;
+}
+.topnav a:hover {
+    height: ;
+    color: yellow;
+    border: ;
+    margin: ;
+    padding: ;
+}
+.topnav a.hover, .active {
+    color: ;
+    background-color:  ;
+}
+.topnav .icon {
+    text-transform: ;
+    font-size: ;
+    text-align: ;
+    display: none;
+    float: right;
+    position: ;
+    margin: ;
+    padding: ;
+    top: ;
+}
+
+/* Global End */
+
+/* Media */
+/* Global */
+@media screen and (max-width: 1200px) {
+    .topnav a:not(:first-child) {
+        display: ;
+    }
+    .topnav a.icon {
+        float: ;
+        display: ;
+    }
+    .topnav.responsive {
+        position: ;
+    }
+    .topnav.responsive a {
+        float: ;
+        display: ;
+        text-align: ;
+    }
+    .topnav.responsive a.icon {
+        position: ;
+        right: ;
+        top: ;
+    }
+}
+/* Global End */
+
+/* Desktop */
+@media all and (min-width:1200px) {
+    .topnav {
+        width: ;
+    }
+}
+/* Desktop End */
+
+/* Tablet */
+@media all and (min-width:601px) and (max-width:1199px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+        line-height: 2;
+    }
+    .topnav.responsive a.icon {
+        padding: 1em;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+}
+
+/* Tablet End */
+
+/* Mobile */
+@media all and (max-width:900px) {
+    /* nav {
+        line-height: ;
+        height: 6em;
+        padding: ;
+    }
+    .topnav a {
+        line-height: 2em;
+        border: ;
+        padding: 1em;
+        margin: ;
+        background-color: ;
+        display: ;
+    } */
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+        line-height: 2;
+    }
+    .topnav.responsive a.icon {
+        padding: 1em;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    body {
+        height: ;
+    }
+    footer {
+        position: ;
+    }
+    #br {
+        display: ;
+    }
+}
+/* Mobile End */
+/* Media  End*/

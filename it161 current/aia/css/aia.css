@@ -1,0 +1,149 @@
+#ahead {
+    position: fixed;
+    width: 100%;
+    background-color: white
+}
+main {
+    margin-top: ;
+    padding-top: 7em;
+}
+#ahead1 {
+    text-align: left;
+}
+p {
+    margin: ;
+    padding: 1em;
+    padding-top: 0;
+}
+#atab {
+    margin-top: 1em;
+    padding-top: ;
+}
+#atab1 {
+    margin-bottom: 5em;
+    padding-top: ;
+}
+#atab1 th {
+    padding: ;
+    margin: ;
+    margin-bottom: ;
+    padding-top: ;
+}
+table {
+    background-color: ;
+    border: 1px solid #000;
+    width: 80%;
+    border-collapse: collapse;
+    margin: auto;
+    padding-top: 0;
+    background-color: #fff;
+    color: #000;
+}
+tr {
+    vertical-align: top;
+}
+td, th {
+    border: 1px dotted #000;
+    padding: .5em;
+}
+ul li {
+    margin: ;
+    padding: ;
+    text-align: left;
+}
+#auli {
+    margin: 0;
+    padding-left: ;
+}
+.client {
+    margin: 40px auto;
+}
+.client th {
+    text-align: left;
+    width: 30%;
+}
+.audience th {
+    margin: 40px auto;
+    width: 30%;
+}
+#ahr {
+    margin-top: 0;
+    padding-bottom: ;
+    background: black;
+}
+footer {
+    position: fixed;
+    background-color: white;
+}
+#afoot {
+    height: 5em;
+}
+#afoot p {
+    text-align: center;
+    margin: 0;
+    padding: 1em;
+    padding-bottom: 0;
+
+}
+#asoc {
+    margin: ;
+    padding: ;
+}
+#asli {
+    margin: ;
+    padding
+}
+
+@media (max-width: 600px) {
+    #atab1 {
+        width: ;
+        margin-top: 0;
+        padding: 1em;
+    }
+    #atab1 ul {
+        width: ;
+        margin-top: 0;
+        padding: 1em;
+        padding-top: 0;
+    }
+    #atab1 ul li {
+        width: ;
+        margin-top: ;
+        padding: ;
+    }
+    #atab1 
+    {
+        margin-top: 0;
+    }
+    footer {
+        position: fixed;
+        height: ;
+        background-color: white;
+    }
+    #afoot {
+        height: 7em;
+    }
+    #afoot p {
+        text-align: center;
+        margin: 0;
+        padding: 1em;
+        padding-bottom: 0;
+    
+    }
+    #asoc {
+        float: left;
+        margin: 20px 30%;
+        text-align: ;
+        margin: ;
+        padding: ;
+    }
+    #asoc #asli {
+        margin: 0;
+        padding: 0;
+    }
+    #asli {
+        margin: ;
+        padding
+    }
+    
+}

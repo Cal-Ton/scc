@@ -1,0 +1,243 @@
+/* Global */
+html {
+    /* margin: 0;
+    margin-bottom: 0; */
+
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+
+
+    background-color: #ffffffec;
+    color: green;
+}
+
+h1 {
+    text-align: center;
+    color: ;
+}
+
+h2 {
+    text-align: ;
+    clear: ;
+    text-align: ;
+    color: green;
+}
+h3 {
+    
+    text-align: ;
+    color: black;
+}
+h4 {
+    text-align: ;
+    color: green;
+}
+h5 {
+    text-align: ;
+    color: black;
+}
+h6 {
+    text-align: ;
+    color: black;
+}
+hr {
+    width: ;
+    color: black;
+    margin-bottom: ;
+}
+#index{
+    margin: 1em;
+    margin-bottom: 7em;
+}
+#index1 a {
+    text-decoration: ;
+    list-style-type: ;
+    color: black;
+}
+#banner {
+    color: green;
+    width: ;
+    height: ;
+    border: 1;
+}
+#nav {
+    height: ;
+    width: 300px;
+    display: block;
+    float: left;
+}
+#map {
+    /* margin: 1em;
+    padding: 1em; */
+    width: 100%;
+    text-decoration: ;
+    clear: both;
+    display: ;
+    overflow: hidden;
+    float: ;
+}
+#map ul {
+    padding: 0;
+}
+#map li {
+    text-decoration: ;
+    list-style-type: ;
+    display: ;
+    float: ;
+}
+#map a {
+    text-decoration: ;
+    list-style-type: none;
+    color: black;
+}
+#index {
+    width: ;
+    column-count:  2;
+    column-width: ;
+    column-gap:  ;
+    display: ;
+    grid-gap: ;
+    float: ;
+}
+#index1 {
+    width: 300px;
+    column-count: ;
+    column-width: ;
+    column-gap: ;
+    display: ;
+    grid-gap: ;
+    clear: ;
+    float: ;
+}
+#title {
+    width: ;
+    color: ;
+}
+#index2 {
+    width: 300px;
+    column-count: ;
+    display: ;
+    grid-gap: ;
+    float: ;
+}
+#index3 {
+    width 300px;
+    column-count: ;
+    display: ;
+    grid-gap: ;
+    float: ;
+}
+.page-header {
+    margin: 0;
+    padding: 0;
+    height: ;
+    width: 100%;
+    z-index: 100;
+    clear: both;
+    overflow: hidden;
+    display: inline;
+    position: fixed;
+    background-color: white;
+}
+#main {
+    overflow: hidden;
+    padding: 7em 0 0 0;
+    margin: 0 0 0 0;
+display: block;
+}
+#map {
+    padding: 1em;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer {
+    color: black;
+    height: ;
+    padding: ;
+    background-color: white;
+}
+footer a {
+    color: blue;
+}
+#hhead5 {
+    text-align: left;
+    width: ;
+}
+#title {
+   text-align: left;
+}
+#ith1 {
+    text-align: left;
+    color: black;
+}
+#pfoot5 {
+    color: black;
+}
+#pfoot5 a {
+    color: blue;
+}
+/* Global End */
+
+/* Media */
+@media (min-width: 450px) and (max-width: 925px) {
+    #index {
+        display: flex;
+    }
+    footer p {
+     padding: 1em;
+    }
+    footer hr {
+        margin: 0;
+        padding: 0;
+    }
+    #pfoot5 {
+        padding-bottom: 5em;
+        margin: 1em;
+    }
+    #hfoot {
+        height: ;
+        display: ;
+        clear: both;
+        margin-bottom: ; 
+    }
+}
+@media (min-width: 1px) and (max-width: 449px) {
+    #index {
+        display: flex;
+    }
+    footer p {
+     padding: 1em;
+    }
+    footer hr {
+        margin: 0;
+        padding: 0;
+    }
+    #pfoot5 {
+        padding-top: ;
+        margin: ;
+    }
+    #hfoot {
+        height: ;
+        display: ;
+        clear: both;
+        margin-bottom: ; 
+    }
+    body {
+        margin: ;
+        overflow: ;
+        padding: ;
+    }
+    #map { 
+        padding: 0;
+    }
+h1 {
+    font-size: 1em;
+}
+#logo {
+    width: 90%;
+    margin: 0 1%;
+    padding: 0;
+}
+/* Media End */

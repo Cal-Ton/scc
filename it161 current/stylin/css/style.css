@@ -1,0 +1,178 @@
+/* Global */
+#shtml {
+    background-color: greenyellow;
+    margin: 0;
+    padding: 1em;
+    padding-bottom: 6em;
+    padding-top: 9em;
+}
+/* Global End */
+
+/* Main */
+#hhead {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+#shead {
+    font-family: 'Merriweather';
+    background-color: palegreen;
+    padding: 1em;
+    margin: 1em;
+}
+#sbody {
+    font-family: 'Merriweather';
+    background-color: white;
+    margin: 0;
+    padding: 1em;
+}
+#snav {
+    text-align: center;
+}
+#snav ul {
+    list-style-type: none;
+}
+#snav li {
+    display: inline-block;
+    }
+#snav a {
+    padding: 1em;
+    color: black;
+    text-decoration: none;
+}
+.slink:hover {
+    color: black;
+    background-color: #fbf498;
+    border: 1px solid black;
+}
+img {
+    float: left;
+    margin: 1em;
+    max-width: 400px;
+    border: 1px solid black;
+}
+#spar {
+    margin: 1em;
+}
+br {
+    clear: both;
+}
+span {
+    background-color: palegoldenrod;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 1em;
+    margin: 1em;
+}
+#efooter {
+    background-color: silver;
+    text-align: center;
+    padding: 1em;
+}
+.hfoot {
+    margin-bottom:;
+    padding-bottom: 0;
+    background-color: white;
+    height: 5em;
+    position: fixed;
+}
+#hfoot {
+    margin-bottom:;
+}
+#hhr {
+    margin-top: 0;
+}
+/* Main End */
+
+/* Class */
+.page-header {
+
+}
+/* Class End */
+
+/* Media */
+/* Tablet */
+@media all and (min-width: 601px) and (max-width: 1199px) {
+    #snav {
+        line-height: 2em;
+        text-align: center;
+    }
+    #snav ul {
+        list-style-type: none;
+    }
+    #snav li {
+        display: inline-block;
+        }
+    #snav a {
+        padding: 1em;
+        color: black;
+        text-decoration: none;
+    }
+    .slink:hover {
+        color: black;
+        background-color: #fbf498;
+        border: 1px solid black;
+    }
+    #simg {
+        width: ;
+        padding: ;
+        margin: ;
+        margin-bottom: 2em;
+    }
+
+    #simg {
+        width: ;
+        margin-bottom: ;
+    }
+    #spar1 {
+        clear: both;
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+}
+/* Tablet End */
+/* Mobile */
+@media all and (max-width: 600px) {
+    #snav {
+        line-height: 2em;
+        text-align: center;
+    }
+    #snav ul {
+        list-style-type: none;
+    }
+    #snav li {
+        display: inline-block;
+        }
+    #snav a {
+        padding: 1em;
+        color: black;
+        text-decoration: none;
+    }
+    .slink:hover {
+        color: black;
+        background-color: #fbf498;
+        border: 1px solid black;
+    }
+    #simg {
+        overflow: ;
+        width: 90%;
+        padding: ;
+        margin: ;
+        margin-bottom: 2em;
+    }
+    #spar1 {
+        clear: both;
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    .hfoot {
+        height: 7em;
+        position: fixed;
+    }
+}
+/* Mobile End */
+/* Media End */

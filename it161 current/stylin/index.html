@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>IT161 - Stylin w/ CSS</title>
+    <link rel="icon" href="images/sun.png">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/forms.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header id="hhead">
+		<h1 class="page-header">IT161 Student Portal</h1>
+		<nav class="topnav" id="myTopnav">
+			<a href="../index.html">Home</a>
+			<a href="../elements/index.html">HTML Elements</a>
+			<a href="../stylin/index.html">Stylin with CSS</a>
+			<a href="../aia/aia.html">Structure</a>
+			<a href="../fp/template.html">Project</a>
+			<a href="../work/list.html">Doc List</a>
+			<a href="https://github.com/Cal-Ton">GitHub</a>
+			<a href="https://www.linkedin.com/in/calum-tonner-a613301b4/">LinkedIn</a>
+			<a href="https://codepen.io/cal-ton">CodePen</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+		</nav>
+	</header>
+    <div id="shtml"><div id="sbody">
+    <div id="shead" class="page-header">
+        <h1 id="shead1">Calum's IT161 Test Page - Stylin With CSS</h1>
+        <div id="snav">
+            <ul>
+                <li><a class="slink" href="https://www.w3.org" target="_blank">The W3C</a></li>
+                <li><a class="slink" href="https://www.whatwg.org" target="_blank">WHATWG Community</a></li>
+                <li><a class="slink" href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
+                <li><a class="slink" href="https://www.linkedin.com/learning-login" target="_blank">LinkedIn Learning Library</a></li>
+            </ul>   
+        </div>
+    </div>
+    <img id="simg" src="images/gohan.png" alt="Picture of Calum">
+    <div id="spar1"><p id="spar">This is a practice page for my IT161 class. It can be tested in a live browser by clicking the validator links at the bottom of this page.</p><p id="spar">This page has been styled using CSS.</p><br><p id="spar">Days of the Week<p></div>
+    <ol>
+        <li>Monday</li>
+        <li>Tuesday</li>
+        <li>Wednesday</li>
+    </ol>
+    <p id="spar">Computer Brands</p>
+    <ul>
+        <li>HP</li>
+        <li>Lenovo</li>
+        <li>Acer</li>
+    </ul>
+    <p id="spar">Strong Text</p>
+    <p id="spar"><strong>ASUSTeK Computer Inc. is a Taiwanese multinational computer, phone hardware and electronics manufacturer headquartered in Beitou District, Taipei, Taiwan.</strong></p>
+    <p id="spar">Emphasized Text</p>
+    <p id="spar"><em>ASUSTeK Computer Inc. is a Taiwanese multinational computer, phone hardware and electronics manufacturer headquartered in Beitou District, Taipei, Taiwan.</em></p>
+    <p id="spar">Strikethrough Text</p>
+    <p id="spar"><s>ASUSTeK Computer Inc. is a Taiwanese multinational computer, phone hardware and electronics manufacturer headquartered in Beitou District, Taipei, Taiwan.</s></p>
+    <p id="spar">Span Text</p>
+    <p id="spar"><span>ASUSTeK Computer Inc. is a Taiwanese multinational computer, phone hardware and electronics manufacturer headquartered in Beitou District, Taipei, Taiwan.</span></p>
+    <p id="spar">Multiples Table</p>
+    <table>
+        <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>4</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>6</td>
+            <td>9</td>
+        </tr>
+    </table>
+    <div id=sfooter>
+        <p id="spar">
+            <small>&copy; 2025 by Calum Tonner. All Rights Reserved.
+                <a class="slink" id="html-check" href="#" target="_blank">Check HTML</a>
+                <a class="slink" id="css-check" href="#" target="_blank">Check CSS</a>
+            </small>
+        </p>
+    </div>
+    </div></div>
+    <footer class="hfoot" id="hfoot"><hr id="hhr">
+        <p><small>&copy; <span id="this-year"></span> by Calum Tonner. All Rights reserved. ~
+            <a id="html-checker" href="#">Check HTML</a> ~
+            <a id="css-checker" href="#">Check CSS</a>
+        </small></p>
+        <div class="social">
+            <div><a id="hfli" href="https://www.facebook.com" class="fa fa-facebook"></a></div>
+            <div><a id="hfli" href="https://www.twitter.com" class="fa fa-twitter"></a></div>
+            <div><a id="hfli" href="https://www.youtube.com" class="fa fa-youtube"></a></div>
+            <div><a id="hfli" href="https://www.instagram.com" class="fa fa-instagram"></a></div>
+            <div><a id="hfli" href="https://www.snapchat.com" class="fa fa-snapchat-ghost"></a></div>
+        </div>
+    </footer>
+    <script>
+        document.getElementById("html-check").setAttribute("href", "https://validator.w3.org/nu/?doc=" + document.URL);
+        document.getElementById("css-check").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + document.URL);
+    </script>
+    <script src="/js/main.js"></script>
+</body>
+</html>
