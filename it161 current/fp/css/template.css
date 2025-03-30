@@ -56,13 +56,12 @@ ul li a {
 #front {
     /* width: 60%; */
     float: ;
-    margin: 0 27%;
+    margin: 0;
+    margin-left: 33em;
     padding: 0;
     border: 1px solid black;
     height: 200px; 
 }
-
-
 #pfhr {
     width: 100%;
 }
