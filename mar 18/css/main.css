@@ -1,0 +1,246 @@
+/* Global */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    box-sizing: border-box;
+}
+/* Global End */
+
+/* Main */
+html{
+	font-family: 'Nunito', sans-serif;
+	background-color: darkgreen;
+   	line-height: 1.5em;
+	font-size: 1em;
+    color: #333;
+}
+body {
+	height: 100%;
+	margin: .25em;
+    padding: 1em;
+    background-color: #0f0f0f;
+}
+h1 {
+	margin: auto;
+    font-family: 'Kanit', sans-serif;
+	font-weight: normal;
+	color: white;
+}
+a {
+    text-decoration: none;
+    color: darkcyan;
+}
+img {
+	border: 1px solid white;
+}
+h2, h3 {
+    font-family: 'Kanit', sans-serif;
+	line-height: 1em;
+    font-weight: normal;
+}
+footer {
+    clear: both;
+    margin: ;
+    padding: 20% 1% 50px;
+	text-align: center;
+    position: ;
+    bottom:;
+}
+footer p {
+    margin: ;
+    padding: 10px 0;
+	color: white;
+}
+.page-header {
+	padding: 1em;
+	font-family: 'Kanit', sans-serif;
+    color: white;
+}
+.wrapper {
+    /* padding: 1em; */
+    background-color: #0f0f0f;
+	color: white;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 0 4px; */
+}
+.column {
+    border: 1px solid white;
+    background-color: rgb(0, 19, 0);
+    float: left;
+    width: 30%;
+    margin: 1em;
+    padding: 10px;
+    /* min-height: 300px; */
+}
+.column2 {
+    flex: ;
+    float: left;
+    width: 30%;
+    margin: 1em;
+    padding: 10px;
+    border: 1px solid white;
+    background-color: rgb(0, 19, 0);
+}
+.flexible {
+    /* border: 1px solid white; */
+    background-color: rgb(0, 19, 0);
+    float: left;
+    width: 50%;
+    margin: 1em;
+    padding: 10px;
+    /* min-height: 300px; */
+    padding: 1em;
+}
+.flexible img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+.center {
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+.auto {
+    float: ;
+    display: ;
+    width: ;
+    margin: auto;
+}
+.profile {
+    clear: ;
+    display: ;
+    float: ;
+    padding: 1em;
+    text-align: center;
+}
+.social {
+    display: flex;
+    justify-content: center;
+    margin: ;
+    padding: 1em;
+    text-align: center;
+}
+.fa {
+    padding: 1em;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 1em;
+    border: .5px solid white;
+    background-color: rgb(0, 19, 0);
+    color: white;
+}
+#source {
+    width: ;
+    float: ;
+    clear: ;
+}
+.auto > div {
+    margin: auto;
+    text-align: left;
+}
+::selection {
+    background-color: palegreen;
+    color: #000;
+}
+a:hover {
+    color: black;
+    background-color: yellowgreen;
+    text-decoration: none;
+}
+.row::after {
+    clear: both;
+    display: table;
+}
+fa:hover {
+    color: silver;
+    opacity: .7;
+}
+/* Main End */
+
+/* Media */
+/* Desktop */
+@media all and (min-width: 1200px) {
+	h1 {
+        width: 80%;
+        padding: 0 1em;
+    }
+    .wrapper {
+        width: 80%;
+		margin: auto;
+	}
+    .profile img {
+        float: left;
+        width: 50%;
+		max-width: 635px;
+        margin-right: 2em;
+    }
+}
+/* Desktop End */
+
+/* Tablet */
+@media all and (min-width: 501px) and (max-width: 1199px) {
+    .auto {
+        width: ;
+    }
+    .source {
+        float: left;
+        clear: both;
+    }
+    .profile img {
+        float: right;
+        width: 50%;
+		margin-left: 1em;
+    }
+}
+/* Tablet End */
+
+/* Mobile */
+@media all and (max-width: 500px) {
+    h1 {
+        padding: 0 1em;
+    }
+    .wrapper {
+        flex: ;
+		padding: ;
+		width: 100%;
+    }
+    .row {
+        flex: ;
+        
+        overflow: ;
+    }
+    .column {
+        width: ;
+    }
+    .flexible {
+        width: ;
+    }
+    .learn {
+        width: ;
+    }
+    .column2 {
+        width: ;
+        background: ;
+    }
+    .profile img {
+        width: 99.5%;
+    }
+    .social {
+        display: ;
+        justify-content: ;
+        display: ;
+        width: ;
+    }
+    #br {
+        /* display: none; */
+    }
+}
+/* Mobile End */
+/* Media End */
