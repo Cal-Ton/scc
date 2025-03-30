@@ -1,0 +1,112 @@
+/* Global */
+html {
+    height: ;
+}
+body {
+    max-height: ;
+}
+h1 {
+    text-align: ;
+    color: ;
+}
+h2 {
+    text-align: ;
+    color: green;
+}
+h3 {
+    text-align: ;
+    color: black;
+}
+h4 {
+    text-align: ;
+    color: green;
+}
+h5 {
+    text-align: ;
+    color: black;
+}
+h6 {
+    text-align: ;
+    color: black;
+}
+hr {
+    width: ;
+    color: black;
+    margin-bottom: ;
+}
+#index1 a {
+    text-decoration: ;
+    list-style-type: ;
+    color: black;
+}
+#banner {
+    color: green;
+    width: ;
+    height: ;
+    border: 1;
+}
+#nav {
+    height: ;
+    width: ;
+    display: block;
+    float: left;
+}
+#map {
+    width: 300px;
+    text-decoration: ;
+    clear: ;
+    display: ;
+    float: ;
+}
+#map ul {
+    padding: 0;
+}
+#map li {
+    text-decoration: ;
+    list-style-type: ;
+    display: ;
+    float: ;
+}
+#map a {
+    text-decoration: ;
+    list-style-type: none;
+    color: black;
+}
+#index {
+    width: ;
+    column-count:  2;
+    column-width: ;
+    column-gap:  ;
+    display: ;
+    grid-gap: ;
+    float: ;
+}
+#index1 {
+    width: 300px;
+    column-count: ;
+    column-width: ;
+    column-gap: ;
+    display: ;
+    grid-gap: ;
+    clear: ;
+    float: ;
+}
+#title {
+    width: ;
+    color: ;
+}
+#index2 {
+    width: 300px;
+    column-count: ;
+    display: ;
+    grid-gap: ;
+    float: ;
+}
+#index3 {
+    width 300px;
+    column-count: ;
+    display: ;
+    grid-gap: ;
+    float: ;
+}
+/* Global End */

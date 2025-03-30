@@ -1,0 +1,463 @@
+/* Global */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    box-sizing: ;
+}
+/* Global End */
+
+/* Main */
+html{
+	font-family: ;
+	background-color: ;
+   	line-height: ;
+	font-size: ;
+    color: ;
+}
+body {
+	height: ;
+	margin: 0;
+    padding: ;
+    background-color: ;
+}
+header {
+    background-color: ;
+    padding: 0;
+}
+h1 {
+	margin: ;
+    padding: 0 1em;
+    font-family: ;
+	font-weight: ;
+	color: ;
+}
+a {
+    text-decoration: ;
+    color: ;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+img {
+	border: ;
+}
+h2 {
+    margin: ;
+    padding: 0 1em;
+    text-align: right;
+} 
+h3 {
+    margin: 0;
+    padding: 1em 0;
+    font-family: ;
+	line-height: ;
+    font-weight: ;
+}
+footer {
+    height: 5em;
+    line-height: normal;
+    display: ;
+    clear: ;
+    width: 100%;
+    overflow: ;
+    margin: 0;
+    padding: 0;
+	text-align: ;
+    position: absolute;
+    bottom: 0;
+}
+footer p {
+    height: ;
+    display: inline-block;
+    margin: 1em;
+    padding: ;
+	color: ;
+    text-align: ;
+}
+footer div {
+    display: inline-block;
+    float: ;
+    margin: ;
+    padding: ;
+}
+footer .social {
+    float: right;
+    width: ;
+    margin: 1%;
+    padding: ;
+    font-size: 2em;
+}
+.page-header {
+	padding: ;
+	font-family: ;
+    color: ;
+}
+.wrapper {
+    padding: ;
+    background-color: ;
+	color: ;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 1em;
+    background-color: ;
+}
+.column {
+    border: ;
+    background-color: ;
+    float: ;
+    width: 30%;
+    margin: 0 1em;
+    padding: ;
+    min-height: ;
+    border: ;
+}
+.column2 {
+    flex: ;
+    float: ;
+    width: 30%;
+    margin: ;
+    padding: ;
+    border: ;
+    background-color: ;
+}
+.flexible {
+    border: ;
+    background-color: ;
+    float: ;
+    width: ;
+    margin: 1em 0;
+    padding: ;
+    min-height: ;
+    padding: ;
+}
+.flexible img {
+    width: 150px;
+    margin: ;
+    padding: ;
+    max-width: ;
+    height: ;
+}
+.learn1 {
+    border: 1px solid green;
+}
+.center {
+    flex: ;
+    width: 300px;
+    margin: 0 1em;
+    padding: ;
+    text-align: ;
+}
+.auto {
+    float: right;
+    display: ;
+    flex-wrap: ;
+    width: ;
+    margin: ;
+}
+.profile {
+    clear: ;
+    display: ;
+    float: ;
+    padding: ;
+    text-align: ;
+    width: ;
+    height: ;
+}
+#profile2 {
+    margin: ;
+    width: ;
+}
+#profile3 {
+    width: 300px;
+    margin: 0 1em;
+    padding: ;
+    float: ;
+    clear: ;
+}
+.hint {
+    border: 1px solid green;
+    margin: 1em;
+    padding: 1em;
+    height: ;
+    display: inline-block;
+    width: 300px;
+    clear: ;
+    float: right;
+}
+#footer2 {
+    height: 5em;
+    line-height: normal;
+    display: ;
+    clear: ;
+    width: 100%;
+    overflow: ;
+    margin: 0;
+    padding: 0;
+	text-align: ;
+    position: fixed;
+    bottom: 0;
+    bottom: 0;
+}
+#dochead {
+    text-align: left;
+}
+#doctext {
+    margin: 0;
+    padding: 1em;
+}
+.footer {
+    float: ;
+    margin: 0 1em;
+    padding: ;
+}
+.social {
+    float: ;
+    display: ;
+    justify-content: ;
+    margin: ;
+    padding: ;
+    text-align: ;
+}
+.social div {
+    display: ;
+    margin: ;
+    padding: ;
+    text-align: ;
+}
+.social div a {
+    display: ;
+    margin: ;
+    padding: ;
+    text-align: ;
+}
+.fa {
+    float: ;
+    height: ;
+    padding: ;
+    font-size: ;
+    width: ;
+    text-align: ;
+    text-decoration: ;
+    margin: ;
+    background-color: ;
+    color: black;
+    border: 1px solid black;
+}
+#source {
+    margin: 0;
+    padding: 0 1em;
+    width: 300px;
+    display: inline-block;
+    text-align: ;
+    vertical-align: top;
+    float: ;
+    clear: ;
+}
+.auto > div {
+    margin: ;
+    text-align: ;
+}
+::selection {
+    background-color: ;
+    color: ;
+}
+a:hover {
+    color: ;
+    background-color: ;
+    text-decoration: ;
+}
+.row::after {
+    clear: ;
+    display: ;
+}
+fa:hover {
+    color: ;
+    opacity: ;
+}
+/* Main End */
+
+/* Media */
+/* Desktop */
+@media all and (min-width: 1200px) {
+	h1 {
+        width: ;
+        padding: ;
+    }
+    .wrapper {
+        width: ;
+		margin: ;
+	}
+    .row {
+        flex: ;
+        overflow: ;
+    }
+    .column {
+        flex: ;
+        height: ;
+        width: 15%;
+    }
+    .column2 {
+        flex: ;
+        height: ;
+        width: 15%;
+    }
+    .flexible {
+        flex: ;
+        margin: ;
+        padding: ;
+        height: ;
+    }
+    hr {
+        margin-bottom: ;
+        padding-bottom: ;
+    }
+    br {
+        margin-bottom: ;
+        padding-bottom: ;
+    }
+    #origin {
+        margin: ;
+        padding: ;
+    }
+    .profile img {
+        float: ;
+        width: ;
+        height: ;
+		max-width: ;
+        margin-right: ;
+    }
+    footer {
+        height: ;
+        margin-top: ;
+        padding-bottom: ;
+    }
+    footer #fhr {
+        margin-bottom: 0;
+    }
+    footer p {
+        margin: ;
+        padding-top: ;
+        position: ;
+        height: ;
+    }
+    footer .social {
+        padding: ;
+        margin: ;
+        padding: ;
+    }
+}
+/* Desktop End */
+
+/* Tablet */
+@media all and (min-width: 601px) and (max-width: 1199px) {
+    .center {
+        width: 200px;
+    }
+    .auto {
+        width: ;
+    }
+    .source {
+        float: ;
+        clear: ;
+    }
+    .profile img {
+        float: ;
+        width: ;
+		margin-left: ;
+    }
+    footer {
+        margin: 0;
+        position: fixed;
+        background-color: white;
+    }
+    #fhr {
+        margin-top: 0;
+    }
+}
+/* Tablet End */
+
+/* Mobile */
+@media all and (max-width: 600px) {
+    html {
+        min-height: ;
+        margin-bottom: 8em;
+        padding-bottom: 4em;
+    }
+    body {
+        min-height: ;
+    }
+    h1 {
+        padding: ;
+    }
+    .wrapper {
+        flex: ;
+        margin-bottom: ;
+		padding-bottom: ;
+		width: ;
+    }
+    .row {
+        flex: ;
+        
+        overflow: ;
+    }
+    .column {
+        margin: 0;
+        padding: 1em;
+        background-color:;
+        width: 100%;
+    }
+    .column2 {
+        margin: 0;
+        padding: 1em;
+        width: 100%;
+        background: ;
+    }
+    .center {
+        margin: 0;
+        padding: 1em;
+        width: 100%;
+    }
+    .center p {
+        margin: 1em 0;
+        text-align: right;
+        line-height: 1.5em;
+    }
+    .flexible {
+        width: ;
+    }
+    .learn {
+        width: ;
+    }
+    .column2 {
+        width: ;
+        background: ;
+    }
+    .profile img {
+        width: ;
+    }
+    .social {
+        display: ;
+        justify-content: ;
+        display: ;
+        width: ;
+    }
+    #br {
+        display: ;
+    }
+    footer {
+        height: 8em;
+        background-color: white;
+        margin-top: ;
+        padding: ;
+        bottom: 0;
+        position: fixed;
+        margin-top: ;
+        clear: ;
+        bottom: ;
+    }
+}
+/* Mobile End */
+/* Media End */

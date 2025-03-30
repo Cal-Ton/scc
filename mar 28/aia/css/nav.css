@@ -1,0 +1,104 @@
+/* Global */
+.topnav {
+    line-height: 1em;
+    width: ;
+    margin: 0;
+    padding: 1em;
+    background-color: black;
+    overflow: ;
+}
+.topnav a {
+    margin: 0 1em;
+    padding: ;
+    float: ;
+    display: ;
+    color: white;
+    text-align: ;
+    padding: ;
+    text-decoration: none;
+    text-transform: ;
+    font-size: ;
+}
+.topnav a:hover {
+    height: ;
+    color: yellow;
+    border: ;
+    margin: ;
+    padding: ;
+}
+.topnav a.hover, .active {
+    color: ;
+    background-color:  ;
+}
+.topnav .icon {
+    text-transform: ;
+    font-size: ;
+    text-align: ;
+    display: none;
+    float: right;
+    position: ;
+    margin: ;
+    padding: ;
+    top: ;
+}
+/* Global End */
+
+/* Media */
+/* Global */
+@media screen and (max-width: 1200px) {
+    .topnav a:not(:first-child) {
+        display: ;
+    }
+    .topnav a.icon {
+        float: ;
+        display: ;
+    }
+    .topnav.responsive {
+        position: ;
+    }
+    .topnav.responsive a {
+        float: ;
+        display: ;
+        text-align: ;
+    }
+    .topnav.responsive a.icon {
+        position: ;
+        right: ;
+        top: ;
+    }
+}
+/* Global End */
+
+/* Desktop */
+@media all and (min-width:1200px) {
+    .topnav {
+        width: ;
+    }
+}
+/* Desktop End */
+
+/* Tablet */
+@media all and (min-width:501px) and (max-width:1199px) {
+    .topnav {
+        width: ;
+    }
+}
+/* Tablet End */
+
+/* Mobile */
+@media all and (max-width:500px) {
+    body {
+        height: ;
+    }
+    footer {
+        position: ;
+    }
+    .topnav {
+        width: ;
+    }
+    #br {
+        display: ;
+    }
+}
+/* Mobile End */
+/* Media  End*/
