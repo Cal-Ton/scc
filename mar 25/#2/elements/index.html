@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>IT161 Test Page by Calum Tonner</title>
+	<link rel="icon" href="images/sun.png">
+	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/nav.css">
+	<link rel="stylesheet" href="../css/forms.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        img {
+            float: left;
+            margin: 1em;
+            max-width: 400px;
+        }
+        a {
+            color: black;
+        }
+        a:hover {
+            color: red;
+            background-color: yellow;
+            text-decoration: none;
+        }
+        #footer {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <header>
+		<h1 class="page-header">IT161 Student Portal</h1>
+		<nav class="topnav" id="myTopnav">
+			<a href="/index.html">Home</a>
+			<a href="/elements/index.html">HTML Elements</a>
+			<a href="/stylin/index.html">Stylin with CSS</a>
+			<a href="/aia.html">Audience</a>
+			<a href="/fp/template.html">Project</a>
+			<a href="/list.html">Doc List</a>
+			<a href="https://github.com/Cal-Ton">GitHub</a>
+			<a href="https://www.linkedin.com/in/calum-tonner-a613301b4/">LinkedIn</a>
+			<a href="https://codepen.io/cal-ton">CodePen</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+		</nav>
+	</header>
+    <div>
+        <h1>Calum's IT161 Test Page</h1>
+        <div>
+            <a href="https://www.w3.org" target="_blank">The W3C</a>
+            <a href="https://www.whatwg.org" target="_blank">WHATWG Community</a>
+            <a href="https://www.w3schools.com" target="_blank">W3Schools</a>
+            <a href="https://www.linkedin.com/learning-login" target="_blank">LinkedIn Learning Library</a>
+        </div>
+    </div>
+    <img src="images/gohan.png" alt="Picture of Calum">
+    <p>This is a test page for my IT161 class. I will be testing this in a live browser by clicking the validator links at the bottom of this page.</p>
+    footer <id="footer">
+        <p>
+            <small>&copy; 2025 by Calum Tonner. All Rights Reserved.
+                <a id="html-check" href="#" target="_blank">Check HTML</a>
+                <a id="css-check" href="#" target="_blank">Check CSS</a>
+            </small>
+        </p>
+    </footer>
+    <script>
+        document.getElementById("html-check").setAttribute("href", "https://validator.w3.org/nu/?doc=" + document.URL);
+        document.getElementById("css-check").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + document.URL);
+    </script>
+    	<footer><hr>
+            <p><small>&copy; <span id="this-year"></span> by Calum Tonner. All Rights reserved. ~
+                <a id="html-checker" href="#" target="_blank">Check HTML</a> ~
+                <a id="css-checker" href="#" target="_blank">Check CSS</a>
+            </small></p>
+            <div class="social">
+                <div><a href="https://www.facebook.com" class="fa fa-facebook"></a></div>
+                <div><a href="https://www.twitter.com" class="fa fa-twitter"></a></div>
+                <div><a href="https://www.youtube.com" class="fa fa-youtube"></a></div>
+                <div><a href="https://www.instagram.com" class="fa fa-instagram"></a></div>
+                <div><a href="https://www.snapchat.com" class="fa fa-snapchat-ghost"></a></div>
+            </div>
+        </footer>
+        <script src="js/main.js"></script>
+</body>
+</html>

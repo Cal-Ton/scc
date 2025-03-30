@@ -1,0 +1,97 @@
+/* Global */
+html {
+
+}
+/* Global End */
+
+/* Main */
+#html {
+    background-color: greenyellow;
+    
+}
+#body {
+    font-family: 'Merriweather';
+    background-color: white;
+    margin: 1em;
+    padding: 1em;
+}
+#nav1 {
+    overflow: visible;
+}
+.page-header1 {
+    position: ;
+    height: ;
+    margin: 0;
+    padding: 1em;
+    background-color: white;
+}
+.topnav {
+    width: 100%;
+    line-height: 1em;
+    margin: 0;
+    padding: 1em;
+    background-color: black;
+}
+.topnav a {
+    margin: 0 1em;
+    color: white;
+    text-decoration: none;
+}
+.topnav a:hover {
+    color: yellow;
+}
+.topnav .icon {
+	float: right;
+}
+nav {
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+}
+nav li {
+    display: inline-block;
+    }
+nav a {
+    padding: 1em;
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+    background-color: #fbf498;
+    border: 1px solid black;
+}
+img {
+    float: left;
+    margin: 1em;
+    max-width: 400px;
+    border: 1px solid black;
+}
+br {
+    clear: both;
+}
+span {
+    background-color: palegoldenrod;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 1em;
+    margin: 1em;
+}
+footer {;
+    background-color: silver;
+    text-align: center;
+    padding: 1em;
+}
+/* Main End */
+
+/* Class */
+.page-header {
+    font-family: 'Merriweather';
+    background-color: palegreen;
+    padding: 1em;
+    margin: 1em;
+}
+/* Class End */
