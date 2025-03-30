@@ -1,0 +1,58 @@
+/* Global */
+nav {
+    padding: 1em;
+    background-color: black;
+    overflow: ;
+}
+
+nav a {
+    margin: 0 1em;
+    color: white;
+    text-decoration: none;
+}
+nav a:hover {
+    color: yellow;
+}
+
+.icon {
+    display: none;
+    float: right;
+}
+/* Global End */
+
+/* Media */
+/* Global */
+
+/* Global End */
+
+/* Desktop */
+
+/* Desktop End */
+
+/* Tablet */
+@media (min-width: 401px) and (max-width: 1200px) {
+nav a:not(:first-child) {
+    display: none;
+}
+nav a.icon {
+    display: block;
+    float: right;
+}
+nav.responsive {
+    position: relative;
+}
+nav.responsive a {
+    float: none;
+    display: block;
+}
+nav.responsive a.icon {
+    position: absolute;
+}
+}
+
+/* Tablet End */
+
+/* Mobile */
+
+/* Mobile End */
+/* Media  End*/
